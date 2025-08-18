@@ -1,6 +1,6 @@
 services:
   algasensors-rabbitmq:
-    image: rabbitmq:3-managament
+    image: rabbitmq:3-management
     restart: no
     ports:
       - 5672:5672
